@@ -1,99 +1,98 @@
 @font-face {
-    font-family: KristallNowPro;
-    src: url("../public/KristallNowPro-Bold_1.otf") format("opentype");
+  font-family: KristallNowPro;
+  src: url("../public/KristallNowPro-Bold_1.otf") format("opentype");
 }
 
 body {
-    font-family: KristallNowPro;
-    background-color : #192b5b;
-    width: 100%;
-    margin: 0;
-    color:white;
+  font-family: KristallNowPro;
+  background-color: #192b5b;
+  width: 100%;
+  margin: 0;
+  color: white;
 }
 
 #banner {
-    width: 100%;
+  width: 100%;
 }
 
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    background-color : #192b5b;
-    padding : 1em 3em;
-    font-size: 1.5em;
-    margin-top:-0.1em;
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #192b5b;
+  padding: 1em 3em;
+  font-size: 1.5em;
+  margin-top: -0.1em;
 }
-h1{
-    font-size:1.5em;
-    margin: 0 0 1em 1em;
+h1 {
+  font-size: 1.5em;
+  margin: 0 0 1em 1em;
 }
 
 .navigation a {
-    color : #d84029;
-    text-decoration : none;
-    font-size : 1em;
-    padding-left : 0;
-    display : inline;
+  color: #d84029;
+  text-decoration: none;
+  font-size: 1em;
+  padding-left: 0;
+  display: inline;
 }
 
 footer {
-    display: flex;
+  display: flex;
 }
 
 footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-
-/* contact me*/ 
+/* contact me*/
 form {
-    margin: 0 auto;
-    width: 500px;
-    padding: 1em;
-    border: 3px solid white;
-    border-radius: 1em;
-    background-color: #525252;
-  }
-  
-  form div + div {
-    margin-top: 1em;
-  }
-  article{
-      display: flex;
-  }
-  label {
-    display: inline-block;
-    width: 300px;
-    text-align: left;
-  }
-  
-  input, textarea {
-    font: 1em sans-serif;
-    width: 350px;
-    box-sizing: border-box;
-    border: 1px solid #999;
-  }
-  
-  input:focus, textarea:focus {
-    border-color: white;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 5em;
-  }
-  
-  .button {
-    display: block;
-  
-  }
-  
-  button {
-    margin-left: .5em;
-  }
-  article iframe{
-    margin: 1em;
-  }
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 3px solid white;
+  border-radius: 1em;
+  background-color: #525252;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+article {
+  display: flex;
+}
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 350px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: white;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  display: block;
+}
+
+button {
+  margin-left: 0.5em;
+}
+article iframe {
+  margin: 1em;
+}
