@@ -1,0 +1,25 @@
+{
+  "name": "superhenry",
+  "version": "1.0.0",
+  "description": "ton travail si tu l'accepte nous écrire ce que tu veux coucou",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevdanone/SuperHenry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevdanone/SuperHenry/issues"
+  },
+  "homepage": "https://github.com/kevdanone/SuperHenry#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "posthtml": "^0.15.1",
+    "posthtml-include": "^1.6.2"
+  }
+}
